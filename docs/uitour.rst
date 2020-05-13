@@ -48,6 +48,10 @@ Note that ``browser.uitour.testingOrigins`` can be a comma separated list of dom
     must also exclude the domain protocol e.g. ``https://``. A browser restart is also required
     after adding an allowed domain.
 
+    If you are working on Firefox Accounts integration, you can use the ``identity.fxaccounts.autoconfig.uri``
+    config property to change the Accounts server.
+    Ref: https://mozilla-services.readthedocs.io/en/latest/howtos/run-fxa.html
+
 JavaScript API
 --------------
 
